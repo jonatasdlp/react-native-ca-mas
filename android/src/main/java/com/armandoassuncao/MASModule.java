@@ -158,8 +158,13 @@ public class MASModule extends ReactContextBaseJavaModule {
                         final String message = exception.getResponse().getResponseMessage();
 
                         try {
-                            final String rawContent = new String(exception.getResponse().getBody().getRawContent());
-                            final JSONObject rawContentJson = new JSONObject(rawContent);
+
+                            final JSONObject rawContentJson;
+                            if (rawContent != null && !rawContent.isEmpty()) {
+                                rawContentJson = new JSONObject(rawContent);
+                            } else {
+                                rawContentJson = new JSONObject("{}");
+                            }
 
                             final Map<String, Object> response = new HashMap<>();
                             response.put("headers", headers);
