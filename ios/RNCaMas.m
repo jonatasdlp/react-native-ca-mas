@@ -53,6 +53,7 @@ RCT_EXPORT_METHOD(invoke:(NSString *)path options:(NSDictionary *)options resolv
     }
 
     method = [method uppercaseString];
+    
     if ([method isEqualToString:@"GET"] || [method isEqualToString:@""]) {
         [MAS getFrom
             :path

@@ -1,29 +1,56 @@
 {
+  "_from": "git+ssh://git@github.com/ArmandoAssuncao/react-native-ca-mas.git#master",
+  "_id": "react-native-ca-mas@0.0.1",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/react-native-ca-mas",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "react-native-ca-mas@git+ssh://git@github.com/ArmandoAssuncao/react-native-ca-mas.git#master",
     "name": "react-native-ca-mas",
-    "version": "0.0.1",
-    "description": "CA MAS SDK for React-Native",
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "author": "Armando Assunção",
-    "license": "MIT",
-    "repository": {
-        "type": "git",
-        "url": "git://github.com/ArmandoAssuncao/react-native-ca-mas.git"
-    },
-    "bugs": {
-        "url": "https://github.com/ArmandoAssuncao/react-native-ca-mas/issues"
-    },
-    "keywords": [
-        "android",
-        "ca",
-        "ios",
-        "mas",
-        "react-native",
-        "sdk"
-    ],
-    "peerDependencies": {
-        "react-native": "^0.49.5"
-    }
+    "escapedName": "react-native-ca-mas",
+    "rawSpec": "git+ssh://git@github.com/ArmandoAssuncao/react-native-ca-mas.git#master",
+    "saveSpec": "git+ssh://git@github.com/ArmandoAssuncao/react-native-ca-mas.git#master",
+    "fetchSpec": "ssh://git@github.com/ArmandoAssuncao/react-native-ca-mas.git",
+    "gitCommittish": "master"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "git+ssh://git@github.com/ArmandoAssuncao/react-native-ca-mas.git#48d88e05bdc0a9ff9eca46c77886982414c535fc",
+  "_spec": "react-native-ca-mas@git+ssh://git@github.com/ArmandoAssuncao/react-native-ca-mas.git#master",
+  "_where": "/Users/bi001537/Workspace/cdproc",
+  "author": {
+    "name": "Armando Assunção"
+  },
+  "bugs": {
+    "url": "https://github.com/ArmandoAssuncao/react-native-ca-mas/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "CA MAS SDK for React-Native",
+  "homepage": "https://github.com/ArmandoAssuncao/react-native-ca-mas#readme",
+  "keywords": [
+    "android",
+    "ca",
+    "ios",
+    "mas",
+    "react-native",
+    "sdk"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "react-native-ca-mas",
+  "peerDependencies": {
+    "react-native": "^0.49.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ArmandoAssuncao/react-native-ca-mas.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.0.1"
 }
