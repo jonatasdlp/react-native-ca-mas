@@ -31,7 +31,7 @@ public class MASUserModule extends ReactContextBaseJavaModule {
 
     @ReactMethod
     public void getAuthCredentialsType(final Promise promise) {
-        promise.resolve(MASUser.getAuthCredentialsType());
+        promise.resolve("");
     }
 
     @ReactMethod

@@ -36,5 +36,13 @@ repositories {
 
 dependencies {
     compile 'com.facebook.react:react-native:+'
-    compile 'com.ca:mas:1.6.00'
+    api('com.ca:mas-foundation:1.9.00') {
+        exclude group: 'net.minidev', module: 'json-smart'
+    }
+    api('com.ca:mas-storage:1.9.00') {
+        exclude group: 'net.minidev', module: 'json-smart'
+    }
+    api('com.ca:mas-identity-management:1.9.00') {
+        exclude group: 'net.minidev', module: 'json-smart'
+    }
 }
